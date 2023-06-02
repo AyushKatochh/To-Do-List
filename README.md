@@ -21,3 +21,15 @@ Using Typescript for backend Node API of To Do List and Reactjs for Frontend
 8. npm install
 9. npm start
 
+# Docker for starting the Project
+ clone the directory
+
+## For Frontend
+1. go to todo
+2. docker build -t [image_name] .
+3. docker run [image_name] -p 3000:3000
+## For Backend
+1. go to parent directory
+2. docker build -t [image_name] .
+3. docker run [image_name] -p 3000:3005
+
